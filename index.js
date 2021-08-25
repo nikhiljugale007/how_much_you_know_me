@@ -49,6 +49,7 @@ for(var i=0;i<questionsArray.length;i++){
   play(questionsArray[i].q , questionsArray[i].a);
 }
 console.log('\n\n Game Ended ');
+console.log("Final score = "+ score );
 
 if(score <=2){
   console.log('You know very less about me !!!');
